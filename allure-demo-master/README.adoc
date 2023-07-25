@@ -1,0 +1,24 @@
+= Allure Demo
+
+This repository powers *allure-demo*, which includes demos for the
+https://github.com/allure-framework[Allure Framework].
+
+== Getting started
+
+`./gradlew clean test`
+
+Results will be generated in the `build/allure-results` path.
+
+`./gradlew allureServe`
+
+Report will be open in the browser.
+
+== Contributing
+Allure's demos is open source. We strongly encourage (and value!) any contributions from the community.
+
+Contributions include:
+
+* General content improvement: typo fixes and sentence clarifications
+* New content: demos for new features and guides for common use cases
+
+Please feel free to open an issue or a pull request. See the _Contributing Guide_ for more information.
