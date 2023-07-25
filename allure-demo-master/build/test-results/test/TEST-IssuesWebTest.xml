@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IssuesWebTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-25T10:02:12" hostname="HOME-PC" time="76.682">
+  <properties/>
+  <testcase name="Тест приложения Случайных чисел - без настроек" classname="IssuesWebTest" time="76.682"/>
+  <system-out><![CDATA[true
+false
+]]></system-out>
+  <system-err><![CDATA[???. 25, 2023 4:02:06 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+???. 25, 2023 4:02:23 PM EventListener afterFindBy
+INFO: Find element By.chained({By.xpath: //android.support.v7.widget.RecyclerView/android.widget.FrameLayout[1]})
+???. 25, 2023 4:02:54 PM EventListener afterFindBy
+INFO: Find element By.chained({By.xpath: //android.support.v7.widget.RecyclerView/android.widget.FrameLayout[1]})
+???. 25, 2023 4:03:15 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/f_num_from_et})
+???. 25, 2023 4:03:16 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/f_num_from_et})
+???. 25, 2023 4:03:17 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/f_num_from_et})
+???. 25, 2023 4:03:17 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/f_num_to})
+???. 25, 2023 4:03:18 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/f_num_to})
+???. 25, 2023 4:03:18 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/f_num_to})
+???. 25, 2023 4:03:19 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/v_param_add_features})
+???. 25, 2023 4:03:19 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/v_param_add_features})
+???. 25, 2023 4:03:20 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/d_feat_set_no_rep_switch})
+???. 25, 2023 4:03:20 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/d_feat_set_no_rep_switch})
+???. 25, 2023 4:03:21 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/d_feat_set_no_rep_switch})
+???. 25, 2023 4:03:21 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/d_feat_set_no_rep_switch})
+???. 25, 2023 4:03:22 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/d_feat_set_quantity_switch})
+???. 25, 2023 4:03:22 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/d_feat_set_quantity_switch})
+???. 25, 2023 4:03:23 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/d_feat_set_delay_switch})
+???. 25, 2023 4:03:23 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/d_feat_set_delay_switch})
+???. 25, 2023 4:03:23 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: android:id/button1})
+???. 25, 2023 4:03:24 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: android:id/button1})
+???. 25, 2023 4:03:24 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/v_trigger_fab})
+???. 25, 2023 4:03:25 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/v_trigger_fab})
+???. 25, 2023 4:03:26 PM EventListener afterFindBy
+INFO: Find element By.chained({By.xpath: //android.widget.ScrollView/android.widget.TextView[@text="1"]})
+???. 25, 2023 4:03:26 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/v_trigger_fab})
+???. 25, 2023 4:03:27 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/v_trigger_fab})
+???. 25, 2023 4:03:29 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/v_trigger_fab})
+]]></system-err>
+</testsuite>

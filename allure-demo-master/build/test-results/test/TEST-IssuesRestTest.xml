@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IssuesRestTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-07-25T10:05:03" hostname="HOME-PC" time="0.216">
+  <properties/>
+  <testcase name="Create issue via api" classname="IssuesRestTest" time="0.061"/>
+  <testcase name="Create issue via api" classname="IssuesRestTest" time="0.02"/>
+  <testcase name="Close issue via api" classname="IssuesRestTest" time="0.059"/>
+  <testcase name="Close issue via api" classname="IssuesRestTest" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
