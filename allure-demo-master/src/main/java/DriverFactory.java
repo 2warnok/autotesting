@@ -1,10 +1,10 @@
-
-
+import config.EventListener;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.events.EventFiringWebDriverFactory;
 import io.appium.java_client.ios.IOSDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import screen.Platform;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -17,6 +17,7 @@ import static io.appium.java_client.remote.MobileCapabilityType.NO_RESET;
 public class DriverFactory {
 
     AppiumDriver<?> driver;
+
     public AppiumDriver<?> setUp(Platform platform) throws MalformedURLException {
         switch (platform) {
             case ANDROID:
@@ -24,7 +25,7 @@ public class DriverFactory {
             case IOS:
                 return createIosDriver();
             default:
-                throw new IllegalArgumentException("No such Platform");
+                throw new IllegalArgumentException("No such screen.Platform");
         }
     }
 

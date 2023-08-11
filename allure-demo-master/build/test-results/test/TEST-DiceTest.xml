@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-10T06:14:26" hostname="HOME-PC" time="144.954">
+  <properties/>
+  <testcase name="Тест приложения Случайных чисел - Игральные кости" classname="DiceTest" time="144.954"/>
+  <system-out><![CDATA[Generate first - without parameter
+Back to the DiceList
+Second click DiceList - check other number
+Click two
+Back to the list
+Third click List - check other number
+]]></system-out>
+  <system-err><![CDATA[???. 10, 2023 12:14:26 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+???. 10, 2023 12:14:46 PM EventListener afterFindBy
+INFO: Find element By.chained({By.AndroidUIAutomator: new UiSelector().textContains("????????? ?????")})
+???. 10, 2023 12:15:07 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/v_trigger_fab})
+???. 10, 2023 12:15:08 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/v_trigger_fab})
+???. 10, 2023 12:15:10 PM EventListener afterFindBy
+INFO: Find element By.chained({By.xpath: //android.widget.LinearLayout/android.view.ViewGroup/android.widget.ImageButton})
+???. 10, 2023 12:15:31 PM EventListener afterFindBy
+INFO: Find element By.chained({By.AndroidUIAutomator: new UiSelector().textContains("????????? ?????")})
+???. 10, 2023 12:15:52 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/custom_quantity_2})
+???. 10, 2023 12:15:53 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/v_trigger_fab})
+???. 10, 2023 12:15:53 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/v_trigger_fab})
+???. 10, 2023 12:15:56 PM EventListener afterFindBy
+INFO: Find element By.chained({By.xpath: //android.widget.LinearLayout/android.view.ViewGroup/android.widget.ImageButton})
+???. 10, 2023 12:16:16 PM EventListener afterFindBy
+INFO: Find element By.chained({By.AndroidUIAutomator: new UiSelector().textContains("????????? ?????")})
+???. 10, 2023 12:16:37 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/quantity_other_rb})
+???. 10, 2023 12:16:39 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/other_quantity_et})
+???. 10, 2023 12:16:48 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/v_trigger_fab})
+???. 10, 2023 12:16:48 PM EventListener afterFindBy
+INFO: Find element By.chained({By.id: ru.uxapps.random:id/v_trigger_fab})
+]]></system-err>
+</testsuite>
