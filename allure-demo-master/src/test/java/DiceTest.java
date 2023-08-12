@@ -14,10 +14,10 @@ import java.util.concurrent.TimeUnit;
 @Owner("yaroslav")
 @Feature("Тесты")
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class DiceTest extends DriverFactory {
+public class DiceTest extends BaseTest {
 
 
-    private final WebSteps steps = new WebSteps();
+ /*   private final WebSteps steps = new WebSteps();
     private final DriverFactory driverFactory = new DriverFactory();
 
     @BeforeAll
@@ -35,10 +35,10 @@ public class DiceTest extends DriverFactory {
         steps.startDriver();
     }
 
+*/
 
 
-
-        @Test
+    @Test
     @TM4J("Это у нас отметка где?")
     @Microservice("Тест")
     @Story("Тест без настроек - Игральные кости")

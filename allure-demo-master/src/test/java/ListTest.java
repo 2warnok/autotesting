@@ -15,10 +15,10 @@ import java.net.MalformedURLException;
 @Owner("yaroslav")
 @Feature("Тесты")
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class ListTest extends DriverFactory {
+public class ListTest extends BaseTest {
 
 
-    private final WebSteps steps = new WebSteps();
+  /*  private final WebSteps steps = new WebSteps();
     private final DriverFactory driverFactory = new DriverFactory();
     @BeforeAll
     public void setDriver() throws MalformedURLException {
@@ -34,7 +34,7 @@ public class ListTest extends DriverFactory {
     public void startDriver() {
         steps.startDriver();
     }
-
+*/
     @Test
     @TM4J("Это у нас отметка где?")
     @Microservice("Тест")

@@ -15,9 +15,10 @@ import java.net.MalformedURLException;
 @Owner("yaroslav")
 @Feature("Тесты")
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class CoinTest extends DriverFactory {
+public class CoinTest extends BaseTest {
 
 
+    /*
     private final WebSteps steps = new WebSteps();
     private final DriverFactory driverFactory = new DriverFactory();
     @BeforeAll
@@ -34,7 +35,7 @@ public class CoinTest extends DriverFactory {
     public void startDriver() {
         steps.startDriver();
     }
-
+*/
     @Test
     @TM4J("Это у нас отметка где?")
     @Microservice("Тест")
@@ -48,7 +49,8 @@ public class CoinTest extends DriverFactory {
 
 //First click DiceList
         elementsNumbers.getCoinList();
-
+        //test_screen
+        elementsNumbers.getException();
 //1 case - simple
         elementsNumbers.getCoinSwipe();
         elementsNumbers.getCoinSwipe();

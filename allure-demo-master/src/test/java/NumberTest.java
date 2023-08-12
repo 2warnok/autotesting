@@ -17,9 +17,9 @@ import java.util.concurrent.TimeUnit;
 @Owner("yaroslav")
 @Feature("Тесты")
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class NumberTest extends DriverFactory {
+public class NumberTest extends BaseTest {
 
-    private static final String OWNER = "allure-framework";
+   /* private static final String OWNER = "allure-framework";
     private static final String REPO = "allure2";
     private static final String ISSUE_TITLE = "Some issue title here";
 
@@ -39,7 +39,7 @@ public class NumberTest extends DriverFactory {
     public void startDriver() {
         steps.startDriver();
     }
-
+*/
     @Test
     @TM4J("Это у нас отметка где?")
     @Microservice("Тест")

@@ -17,8 +17,8 @@ import java.util.concurrent.TimeUnit;
 @Owner("yaroslav")
 @Feature("Тесты с опциями")
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class NumberTestCustom {
-    private static final String OWNER = "allure-framework";
+public class NumberTestCustom extends BaseTest{
+  /*  private static final String OWNER = "allure-framework";
     private static final String REPO = "allure2";
     private static final String BRANCH = "new-feature";
     private final WebSteps steps = new WebSteps();
@@ -39,6 +39,8 @@ public class NumberTestCustom {
     public void startDriver() {
         steps.startDriver();
     }
+    */
+
     @Test
     @TM4J("Это где будет писаться? лала")
     @Microservice("Тест на мобильных устройствах с опциями")
